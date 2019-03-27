@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'admin_email' => 'belchenkov.leha@mail.ru',
+    'admin_email' => 'u608110@gmail.com',
     'shop_name' => 'Магазин ishop',
     'pagination' => 3,
     'smtp_login' => '',
