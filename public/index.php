@@ -6,4 +6,4 @@
 
     new \ishop\App();
 
-debug(\ishop\Router::getRoutes());
+//debug(\ishop\Router::getRoutes());
