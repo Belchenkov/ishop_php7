@@ -124,3 +124,11 @@
 ============
 [2019-03-31 05:20:35] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
 ============
+[2019-03-31 06:18:47] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 06:19:24] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 06:19:53] Текст ошибки: Нет соединения с БД | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Db.php | Строка: 16
+============
+[2019-03-31 06:20:03] Текст ошибки: Нет соединения с БД | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Db.php | Строка: 16
+============

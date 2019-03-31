@@ -2,6 +2,8 @@
 
 namespace ishop\base;
 
+use ishop\Db;
+
 abstract class Modal
 {
     public $attributes = [];
@@ -10,6 +12,6 @@ abstract class Modal
 
     public function __construct()
     {
-
+        Db::instance();
     }
 }
