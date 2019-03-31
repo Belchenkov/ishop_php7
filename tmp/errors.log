@@ -1,0 +1,134 @@
+[2019-03-28 02:44:18] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\public\index.php | Строка: 8
+============
+[2019-03-28 02:44:18] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\public\index.php | Строка: 8
+============
+[2019-03-28 02:45:48] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\public\index.php | Строка: 8
+============
+[2019-03-28 02:46:17] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\public\index.php | Строка: 8
+============
+[2019-03-28 02:47:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\public\index.php | Строка: 8
+============
+[2019-03-28 02:51:40] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\public\index.php | Строка: 8
+============
+[2019-03-28 02:52:05] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\public\index.php | Строка: 8
+============
+[2019-03-28 02:52:35] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\public\index.php | Строка: 8
+============
+[2019-03-28 02:52:44] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\public\index.php | Строка: 8
+============
+[2019-03-30 03:45:40] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 30
+============
+[2019-03-30 03:45:53] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 30
+============
+[2019-03-30 03:46:44] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 30
+============
+[2019-03-30 03:58:13] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 31
+============
+[2019-03-30 03:58:21] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 31
+============
+[2019-03-30 04:03:48] Текст ошибки: Контроллер app\controllers\PageController не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 33
+============
+[2019-03-30 04:08:49] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 37
+============
+[2019-03-30 04:09:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 37
+============
+[2019-03-30 04:10:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 37
+============
+[2019-03-30 04:11:25] Текст ошибки: Контроллер app\controllers\MainController не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 34
+============
+[2019-03-30 04:20:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 38
+============
+[2019-03-30 04:20:15] Текст ошибки: Class 'app\controllers\PageController' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 31
+============
+[2019-03-30 04:22:37] Текст ошибки: Контроллер app\controllers\PageController не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
+============
+[2019-03-30 04:24:17] Текст ошибки: Контроллер app\controllers\PageController не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
+============
+[2019-03-30 04:24:28] Текст ошибки: Контроллер app\controllers\MailController не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
+============
+[2019-03-30 04:24:34] Текст ошибки: Метод app\controllers\MainController::indexAction не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 37
+============
+[2019-03-30 04:24:57] Текст ошибки: Метод app\controllers\MainController::indexAction не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 37
+============
+[2019-03-30 04:28:13] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 43
+============
+[2019-03-30 04:30:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 43
+============
+[2019-03-30 04:40:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 43
+============
+[2019-03-30 04:43:06] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 43
+============
+[2019-03-30 04:50:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 43
+============
+[2019-03-30 05:00:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 43
+============
+[2019-03-30 05:10:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 43
+============
+[2019-03-30 17:17:09] Текст ошибки: Call to undefined function ishop\base\dd() | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\View.php | Строка: 35
+============
+[2019-03-30 17:17:49] Текст ошибки: Контроллер app\controllers\PageController не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 41
+============
+[2019-03-30 17:27:02] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\View.php | Строка: 52
+============
+[2019-03-30 17:28:22] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\View.php | Строка: 52
+============
+[2019-03-30 17:28:58] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\View.php | Строка: 52
+============
+[2019-03-30 17:29:01] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\View.php | Строка: 52
+============
+[2019-03-30 17:29:19] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\View.php | Строка: 52
+============
+[2019-03-31 04:52:50] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 04:52:59] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 04:53:27] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 04:53:27] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 04:53:35] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 04:53:35] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 04:54:08] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 04:54:55] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 04:56:31] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 04:59:46] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 05:00:03] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 05:02:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 05:02:12] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 05:02:44] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 05:04:44] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 05:09:46] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 44
+============
+[2019-03-31 05:18:58] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 05:19:06] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 05:19:46] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 05:19:47] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 05:19:47] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 05:19:47] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 05:20:35] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 06:18:47] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 06:19:24] Текст ошибки: Too few arguments to function ishop\Router::removeQueryString(), 0 passed in D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php on line 27 and exactly 1 expected | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 91
+============
+[2019-03-31 06:19:53] Текст ошибки: Нет соединения с БД | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Db.php | Строка: 16
+============
+[2019-03-31 06:20:03] Текст ошибки: Нет соединения с БД | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Db.php | Строка: 16
+============
