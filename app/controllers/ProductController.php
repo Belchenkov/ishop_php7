@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Breadcrumbs;
 use app\models\Product;
 
 class ProductController extends AppController
@@ -15,7 +16,8 @@ class ProductController extends AppController
             throw new \Exception('Страница не найдена', 404);
         }
 
-        // TODO breadcrumbs
+        // breadcrumbs
+        $breadcrumbs = Breadcrumbs::getBreadcrumbs($product->category_id, $product->title);
 
         // chain products
         $related = \R::getAll(
@@ -41,6 +43,12 @@ class ProductController extends AppController
         // TODO Modificate
 
         $this->setMeta($product->title, $product->description, $product->keywords);
-        $this->set(compact('product', 'related', 'gallery', 'recentlyViewed'));
+        $this->set(compact(
+            'product',
+            'related',
+            'gallery',
+            'recentlyViewed',
+            'breadcrumbs'
+        ));
     }
 }

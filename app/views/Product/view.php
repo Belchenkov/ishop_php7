@@ -3,8 +3,10 @@
     <div class="container">
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
+                <?=$breadcrumbs;?>
+                <!--
                 <li><a href="index.html">Home</a></li>
-                <li class="active">Single</li>
+                <li class="active">Single</li>-->
             </ol>
         </div>
     </div>

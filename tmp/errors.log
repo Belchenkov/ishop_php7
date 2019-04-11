@@ -1826,3 +1826,19 @@
 ============
 [2019-04-09 19:30:50] Текст ошибки: Expected array, string given. | Файл: D:\laragon\www\php\ishop_php7\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 146
 ============
+[2019-04-11 03:07:51] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-04-11 03:08:00] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-04-11 03:08:38] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-04-11 03:09:12] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-04-11 03:09:20] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-04-11 03:11:30] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-04-11 03:13:16] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-04-11 03:27:17] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
