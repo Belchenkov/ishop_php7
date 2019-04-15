@@ -31,7 +31,7 @@ class CartController extends AppController
         if ($this->isAjax()) {
             $this->loadView('cart_modal');
         }
-        die;
+        die();
         redirect();
     }
 }

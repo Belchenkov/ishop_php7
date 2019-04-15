@@ -20,7 +20,14 @@ $('body').on('click', '.add-to-cart-link', function (e) {
 });
 
 function showCart(cart) {
-    console.log(cart);
+    if ($.trim(cart) == '<h3>Корзина пуста</h3>') {
+        $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'none');
+    } else {
+        $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'inline-block');
+    }
+
+    $('#cart .modal-body').html(cart);
+    $('#cart').modal();
 }
 
 // ################### End of Cart ############### //
