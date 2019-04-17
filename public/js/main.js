@@ -65,6 +65,19 @@ function getCart() {
     });
 }
 
+function clearCart() {
+    $.ajax({
+        url: '/cart/clear',
+        type: 'GET',
+        success: function (res) {
+            showCart(res);
+        },
+        error: function () {
+            alert('Ошибка! Попробуйте позже)');
+        }
+    });
+}
+
 // ################### End of Cart ############### //
 
 
