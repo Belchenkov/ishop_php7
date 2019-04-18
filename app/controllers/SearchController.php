@@ -16,4 +16,15 @@ class SearchController extends AppController
         }
         die;
     }
+
+    public function indexAction()
+    {
+        $query = !empty(trim($_GET['s'])) ? trim($_GET['s']) : null;
+
+        if ($query) {
+            $products = \R::find('product', "title LIKE ?", ["%{$query}%"]);
+        }
+        $this->setMeta('Поиск по: ' . h($query));
+        $this->set(compact('products', 'query'));
+    }
 }
