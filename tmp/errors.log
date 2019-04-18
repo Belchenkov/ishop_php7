@@ -4904,3 +4904,11 @@
 ============
 [2019-04-17 02:56:09] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
 ============
+[2019-04-18 01:19:46] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-04-18 01:47:52] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-04-18 01:50:33] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-04-18 01:50:45] Текст ошибки: Метод app\controllers\SearchController::indexAction не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
+============
