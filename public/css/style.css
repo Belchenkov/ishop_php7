@@ -984,7 +984,7 @@ a.mask {
 /*--footer-end--*/
 /*--product-page-starts--*/
 .prdt{
-	padding:6em 0px;
+	padding:3em 0px;
 }
 .w_sidebar{
 	border: 1px solid #EBEBEB;
@@ -1528,7 +1528,7 @@ a.mask {
 .account-bottom {
     margin-top: 2.2em;
 }
-.account-left input[type="text"],.account-left input[type="password"] {
+.account-left input[type="text"],.account-left input[type="password"], .account-left input[type="email"] {
     width: 90%;
     margin: 0px;
     color: #000;
@@ -3181,4 +3181,11 @@ ul.tag-men {
 
 .del-item {
     cursor: pointer;
+}
+
+.drop > .btn-group > a {
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	top: -2px;
 }
