@@ -2,6 +2,8 @@
 
 namespace app\models;
 
+use Valitron\Validator;
+
 class User extends AppModel
 {
     public $attributes = [
@@ -10,5 +12,21 @@ class User extends AppModel
         'name' => '',
         'email' => '',
         'address' => ''
+    ];
+
+    public $rules = [
+        'required' => [
+            ['login'],
+            ['password'],
+            ['name'],
+            ['email'],
+            ['address']
+        ],
+        'email' => [
+            ['email']
+        ],
+        'lengthMin' => [
+            ['password', 6]
+        ]
     ];
 }

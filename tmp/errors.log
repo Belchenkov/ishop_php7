@@ -5022,3 +5022,5 @@
 ============
 [2019-04-21 03:37:58] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
 ============
+[2019-04-21 04:29:21] Текст ошибки: Class 'ishop\base\Validator' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\Modal.php | Строка: 29
+============
