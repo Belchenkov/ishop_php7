@@ -37,7 +37,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </a>
                         <ul class="dropdown-menu">
                             <?php if (!empty($_SESSION['user'])) : ?>
-                                <li><a href="#">Добро пожаловать, <?=$h($_SESSION['user']['name']);?></a></li>
+                                <li><a href="#">Добро пожаловать, <?=h($_SESSION['user']['name']);?></a></li>
                                 <li><a href="user/logout">Выход</a></li>
                             <?php else : ?>
                                 <li><a href="user/login">Вход</a></li>
@@ -64,14 +64,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <?php endif; ?>
                         </div>
                     </a>
-                   <!-- <a href="checkout.html">
-                        <div class="total">
-                            <span class="simpleCart_total"></span></div>
-                        <img src="images/cart-1.png" alt="" />
-                    </a>
-                    <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
-                    <div class="clearfix"> </div>-->
-                </div>
+                  </div>
             </div>
             <div class="clearfix"></div>
         </div>
