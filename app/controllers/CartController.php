@@ -70,7 +70,7 @@ class CartController extends AppController
         $this->setMeta('Корзина');
     }
 
-    public function checkout()
+    public function checkoutAction()
     {
         if (!empty($_POST)) {
             // Регистрация пользователя
@@ -98,6 +98,8 @@ class CartController extends AppController
             $user_email = isset($_SESSION['user']['email']) ? $_SESSION['user']['email'] : $_POST['email'];
 
             $order_id = Order::saveOrder($data);
+            redirect();
+            die;
             Order::mailOrder($order_id, $user_email);
         }
     }

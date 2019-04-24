@@ -5236,3 +5236,9 @@
 ============
 [2019-04-24 01:56:08] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
 ============
+[2019-04-24 02:29:53] Текст ошибки: Метод app\controllers\CartController::checkoutAction не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
+============
+[2019-04-24 02:30:41] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\View.php | Строка: 45
+============
+[2019-04-24 02:33:14] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\View.php | Строка: 45
+============
