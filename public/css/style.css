@@ -3189,3 +3189,26 @@ ul.tag-men {
 	position: relative;
 	top: -2px;
 }
+
+form .has-success .form-control{
+	border-color: green;
+}
+form .has-error .form-control{
+	border-color: red;
+}
+.has-error, .has-success{
+	position: relative;
+}
+.form-control-feedback {
+	right: 10px;
+	top: 25px;
+}
+
+#cart img,
+.cart table img {
+	height: 50px;
+}
+
+.del-item {
+	cursor: pointer;
+}

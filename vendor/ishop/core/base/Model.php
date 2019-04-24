@@ -5,7 +5,7 @@ namespace ishop\base;
 use ishop\Db;
 use Valitron\Validator;
 
-abstract class Modal
+abstract class Model
 {
     public $attributes = [];
     public $errors = [];
@@ -25,6 +25,17 @@ abstract class Modal
         }
     }
 
+    public function save($table)
+    {
+        $tbl = \R::dispense($table);
+
+        foreach ($this->attributes as $name => $value) {
+            $tbl->$name = $value;
+        }
+
+        return \R::store($tbl);
+    }
+    
     public function validate($data)
     {
         Validator::langDir(WWW . '/validator/lang');

@@ -2,9 +2,9 @@
 
 namespace app\models;
 
-use ishop\base\Modal;
+use ishop\base\Model;
 
-class AppModel extends Modal
+class AppModel extends Model
 {
 
 }
