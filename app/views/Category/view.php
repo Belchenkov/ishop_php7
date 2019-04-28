@@ -67,7 +67,6 @@
             <div class="col-md-3 prdt-right">
                 <div class="w_sidebar">
                     <?php new \app\widgets\filter\Filter(); ?>
-
                 </div>
             </div>
             <div class="clearfix"></div>
