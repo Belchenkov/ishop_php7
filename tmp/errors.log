@@ -5462,3 +5462,5 @@
 ============
 [2019-04-28 04:43:21] Текст ошибки: Метод app\controllers\CategoryController::indexAction не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
 ============
+[2019-04-29 01:43:17] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============

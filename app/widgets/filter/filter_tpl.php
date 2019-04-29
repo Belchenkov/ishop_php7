@@ -5,9 +5,9 @@
             <div class="col col-4">
                 <?php foreach($this->attrs[$group_id] as $attr_id => $value): ?>
                     <?php
-                    if(!empty($filter) && in_array($attr_id, $filter)){
+                    if (!empty($filter) && in_array($attr_id, $filter)){
                         $checked = ' checked';
-                    }else{
+                    } else {
                         $checked = null;
                     }
                     ?>

@@ -34,7 +34,8 @@ class Filter{
     protected function getHtml(){
         ob_start();
         $filter = self::getFilter();
-        if(!empty($filter)){
+
+        if (!empty($filter)){
             $filter = explode(',', $filter);
         }
         require $this->tpl;
