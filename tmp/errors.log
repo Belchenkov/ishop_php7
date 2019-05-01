@@ -5498,3 +5498,13 @@
 ============
 [2019-04-30 02:11:57] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
 ============
+[2019-05-01 02:47:46] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-01 02:49:29] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-01 03:07:22] Текст ошибки: Class 'R' not found | Файл: D:\laragon\www\php\ishop_php7\app\views\layouts\watches.php | Строка: 289
+============
+[2019-05-01 03:07:41] Текст ошибки: Class 'R' not found | Файл: D:\laragon\www\php\ishop_php7\app\views\layouts\watches.php | Строка: 289
+============
+[2019-05-01 03:32:29] Текст ошибки: Контроллер app\controllers\admin\OrderController не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 43
+============
