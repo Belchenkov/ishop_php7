@@ -5508,3 +5508,31 @@
 ============
 [2019-05-01 03:32:29] Текст ошибки: Контроллер app\controllers\admin\OrderController не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 43
 ============
+[2019-05-02 03:29:00] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 03:33:42] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 03:34:49] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 03:35:43] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 03:49:24] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 03:51:52] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\View.php | Строка: 54
+============
+[2019-05-02 03:51:59] Текст ошибки: Class 'mysql_xdevapi\Exception' not found | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\base\View.php | Строка: 54
+============
+[2019-05-02 04:37:20] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 04:39:21] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 04:39:22] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 04:39:23] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 04:40:43] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 04:40:45] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-02 04:50:38] Текст ошибки: Class 'R' not found | Файл: D:\laragon\www\php\ishop_php7\app\views\layouts\admin.php | Строка: 592
+============
