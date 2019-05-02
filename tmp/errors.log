@@ -5536,3 +5536,7 @@
 ============
 [2019-05-02 04:50:38] Текст ошибки: Class 'R' not found | Файл: D:\laragon\www\php\ishop_php7\app\views\layouts\admin.php | Строка: 592
 ============
+[2019-05-02 06:41:19] Текст ошибки: Class 'R' not found | Файл: D:\laragon\www\php\ishop_php7\app\controllers\admin\MainController.php | Строка: 10
+============
+[2019-05-02 06:41:19] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
