@@ -5540,3 +5540,61 @@
 ============
 [2019-05-02 06:41:19] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
 ============
+[2019-05-03 04:15:24] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 04:25:24] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 04:34:41] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 04:34:49] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 04:35:25] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 04:35:38] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 04:45:25] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 04:55:25] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 05:05:25] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 05:15:25] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 05:25:25] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 05:35:25] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 05:45:25] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 05:55:26] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 06:05:26] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 06:15:26] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 06:25:26] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 06:35:26] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 06:35:54] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 06:36:09] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`name`, ROUND(SUM(`order_product`.`price`), 2) AS `sum`
+                FROM `' at line 2 | Файл: D:\laragon\www\php\ishop_php7\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+============
+[2019-05-03 06:37:04] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`name`, ROUND(SUM(`order_product`.`price`), 2) AS `sum`
+                FROM `' at line 2 | Файл: D:\laragon\www\php\ishop_php7\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+============
+[2019-05-03 06:37:06] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`name`, ROUND(SUM(`order_product`.`price`), 2) AS `sum`
+                FROM `' at line 2 | Файл: D:\laragon\www\php\ishop_php7\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+============
+[2019-05-03 06:38:14] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 06:39:26] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-03 06:40:38] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`name`, ROUND(SUM(`order_product`.`price`), 2) AS `sum`
+                FROM `' at line 2 | Файл: D:\laragon\www\php\ishop_php7\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+============
+[2019-05-03 06:41:36] Текст ошибки: Контроллер app\controllers\admin\OrderController не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 43
+============
+[2019-05-03 06:43:34] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
