@@ -5598,3 +5598,53 @@
 ============
 [2019-05-03 06:43:34] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
 ============
+[2019-05-04 03:34:21] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 03:35:30] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 03:35:38] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 03:36:17] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 03:37:28] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 03:38:22] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 03:44:22] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 03:51:47] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 03:51:55] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 03:52:46] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 03:54:22] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:02:49] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:02:57] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:03:30] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:04:22] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:05:41] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:08:03] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:14:22] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:21:11] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:21:26] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:22:26] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:32:26] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-04 04:36:53] Текст ошибки: syntax error, unexpected '<' | Файл: D:\laragon\www\php\ishop_php7\app\views\layouts\admin.php | Строка: 266
+============
+[2019-05-04 04:37:07] Текст ошибки: syntax error, unexpected '<' | Файл: D:\laragon\www\php\ishop_php7\app\views\layouts\admin.php | Строка: 266
+============
+[2019-05-04 04:37:27] Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
+============

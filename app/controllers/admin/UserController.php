@@ -11,9 +11,7 @@ class UserController extends AppController
         if (!empty($_POST)) {
             $user = new User();
 
-            if ($user->login(true)) {
-                $_SESSION['success'] = 'Вы успешно авторизованы';
-            } else {
+            if (!$user->login(true)) {
                 $_SESSION['error'] = 'Логин/пароль введены неверно';
             }
 
