@@ -2,6 +2,12 @@
 <section class="content-header">
     <h1>
         Заказ №<?=$order['id'];?>
+        <?php if(!$order['status']): ?>
+            <a href="<?=ADMIN;?>/order/change?id=<?=$order['id'];?>&status=1" class="btn btn-success btn-xs">Одобрить</a>
+        <?php else: ?>
+            <a href="<?=ADMIN;?>/order/change?id=<?=$order['id'];?>&status=0" class="btn btn-default btn-xs">Вернуть на доработку</a>
+        <?php endif; ?>
+        <a href="<?=ADMIN;?>/order/delete?id=<?=$order['id'];?>" class="btn btn-danger btn-xs delete">Удалить</a>
     </h1>
     <ol class="breadcrumb">
         <li><a href="<?=ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
@@ -33,7 +39,7 @@
                             </tr>
                             <tr>
                                 <td>Кол-во позиций в заказе</td>
-                                <td>--</td>
+                                <td><?=count($order_products);?></td>
                             </tr>
                             <tr>
                                 <td>Сумма заказа</td>

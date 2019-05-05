@@ -32,13 +32,41 @@ class OrderController extends AppController
           WHERE `order`.`id` = ?
           GROUP BY `order`.`id` ORDER BY `order`.`status`, `order`.`id` LIMIT 1", [$order_id]);
 
-        if(!$order){
+        if (!$order){
             throw new \Exception('Страница не найдена', 404);
         }
 
         $order_products = \R::findAll('order_product', "order_id = ?", [$order_id]);
         $this->setMeta("Заказ №{$order_id}");
         $this->set(compact('order', 'order_products'));
+    }
 
+    public function changeAction()
+    {
+        $order_id = $this->getRequestID();
+        $status = !empty($_GET['status']) ? '1' : '0';
+        $order = \R::load('order', $order_id);
+
+        if (!$order){
+            throw new \Exception('Страница не найдена', 404);
+        }
+
+        $order->status = $status;
+        $order->update_at = date('Y-m-d H:i:s');
+
+        \R::store($order);
+        $_SESSION['success'] = 'Изменения сохранены';
+        redirect();
+    }
+
+    public function deleteAction()
+    {
+        $order_id = $this->getRequestID();
+        $order = \R::load('order', $order_id);
+
+        \R::trash($order);
+        $_SESSION['success'] = 'Заказ удален';
+
+        redirect(ADMIN . '/order');
     }
 }
