@@ -5696,3 +5696,23 @@
 ". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
 ". | Файл: D:\laragon\www\php\ishop_php7\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 191
 ============
+[2019-05-06 01:42:47] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-06 01:42:56] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-06 01:43:35] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-06 01:45:21] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-06 01:46:31] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-06 01:50:04] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
+[2019-05-06 02:01:19] Текст ошибки: Метод app\controllers\admin\CategoryController::editAction не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
+============
+[2019-05-06 02:01:19] Текст ошибки: Метод app\controllers\admin\CategoryController::editAction не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
+============
+[2019-05-06 02:15:57] Текст ошибки: Метод app\controllers\admin\CategoryController::editAction не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
+============
+[2019-05-06 02:15:58] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
+============
