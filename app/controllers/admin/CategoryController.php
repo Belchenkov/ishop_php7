@@ -2,6 +2,7 @@
 
 namespace app\controllers\admin;
 
+use app\models\AppModel;
 use app\models\Category;
 
 class CategoryController extends AppController
@@ -50,8 +51,13 @@ class CategoryController extends AppController
             }
 
             if ($id = $category->save('category')) {
-
+                $alias = AppModel::createAlias('category', 'alias', $data['title'], $id);
+                $cat = \R::load('category', $id);
+                $cat->alias = $alias;
+                \R::store($cat);
+                $_SESSION['success'] = 'Категория добавлена';
             }
+            redirect();
         }
         $this->setMeta('Новая категория');
     }
