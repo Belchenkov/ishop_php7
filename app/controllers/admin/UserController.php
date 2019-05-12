@@ -25,8 +25,12 @@ class UserController extends AppController
         $user_id = $this->getRequestID();
         $user = \R::load('user', $user_id);
 
+        $orders = \R::getAll("SELECT `order`.`id`, `order`.`user_id`, `order`.`status`, `order`.`date`, `order`.`update_at`, `order`.`currency`, ROUND(SUM(`order_product`.`price`), 2) AS `sum` FROM `order`
+              JOIN `order_product` ON `order`.`id` = `order_product`.`order_id`
+              WHERE user_id = {$user_id} GROUP BY `order`.`id` ORDER BY `order`.`status`, `order`.`id`");
+
         $this->setMeta('Редактирование профиля пользователя');
-        $this->set(compact('user'));
+        $this->set(compact('user', 'orders'));
     }
     
     public function loginAdminAction()
