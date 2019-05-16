@@ -9,13 +9,17 @@ class Filter{
     public $groups;
     public $attrs;
     public $tpl;
+    public $filter;
 
-    public function __construct(){
-        $this->tpl = __DIR__ . '/filter_tpl.php';
+    public function __construct($filter = null, $tpl = '')
+    {
+        $this->filter = $filter;
+        $this->tpl = $tpl ?: __DIR__ . '/filter_tpl.php';
         $this->run();
     }
 
-    protected function run(){
+    protected function run()
+    {
         $cache = Cache::instance();
         $this->groups = $cache->get('filter_group');
         if(!$this->groups){
@@ -31,7 +35,8 @@ class Filter{
         echo $filters;
     }
 
-    protected function getHtml(){
+    protected function getHtml()
+    {
         ob_start();
         $filter = self::getFilter();
 
@@ -42,11 +47,13 @@ class Filter{
         return ob_get_clean();
     }
 
-    protected function getGroups(){
+    protected function getGroups()
+    {
         return \R::getAssoc('SELECT id, title FROM attribute_group');
     }
 
-    protected static function getAttrs(){
+    protected static function getAttrs()
+    {
         $data = \R::getAssoc('SELECT * FROM attribute_value');
         $attrs = [];
         foreach($data as $k => $v){
@@ -55,7 +62,8 @@ class Filter{
         return $attrs;
     }
 
-    public static function getFilter(){
+    public static function getFilter()
+    {
         $filter = null;
         if(!empty($_GET['filter'])){
             $filter = preg_replace("#[^\d,]+#", '', $_GET['filter']);
@@ -64,7 +72,8 @@ class Filter{
         return $filter;
     }
 
-    public static function getCountGroups($filter){
+    public static function getCountGroups($filter)
+    {
         $filters = explode(',', $filter);
         $cache = Cache::instance();
         $attrs = $cache->get('filter_attrs');
