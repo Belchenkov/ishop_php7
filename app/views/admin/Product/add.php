@@ -170,7 +170,7 @@
                                                 data-name="multi"
                                         >Выбрать файл</div>
                                         <p><small>Рекомендуемые размеры: 700x1000</small></p>
-                                        <div class="single"></div>
+                                        <div class="multi"></div>
                                     </div>
                                     <div class="overlay">
                                         <i class="fa fa-refresh fa-spin"></i>

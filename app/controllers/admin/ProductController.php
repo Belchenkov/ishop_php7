@@ -4,6 +4,7 @@ namespace app\controllers\admin;
 
 use app\models\admin\Product;
 use app\models\AppModel;
+use ishop\App;
 use ishop\libs\Pagination;
 
 class ProductController extends AppController
@@ -30,6 +31,7 @@ class ProductController extends AppController
             $product->load($data);
             $product->attributes['status'] = $product->attributes['status'] ? '1' : '0';
             $product->attributes['hit'] = $product->attributes['hit'] ? '1' : '0';
+            $product->getImg();
 
             if (!$product->validate($data)) {
                 $product->getErrors();
@@ -38,6 +40,7 @@ class ProductController extends AppController
             }
 
             if ($id = $product->save('product')) {
+                $product->saveGallery($id);
                 $alias = AppModel::createAlias('product', 'alias', $data['title'], $id);
                 $p = \R::load('product', $id);
                 $p->alias = $alias;
@@ -67,5 +70,21 @@ class ProductController extends AppController
         }
         echo json_encode($data);
         die;
+    }
+
+    public function addImageAction()
+    {
+        if (isset($_GET['upload'])) {
+            if ($_POST['name'] === 'single') {
+                $wmax = App::$app->getProperty('img_width');
+                $hmax = App::$app->getProperty('img_height');
+            } else {
+                $wmax = App::$app->getProperty('gallery_width');
+                $hmax = App::$app->getProperty('gallery_height');
+            }
+            $name = $_POST['name'];
+            $product = new Product();
+            $product->uploadImg($name, $wmax, $hmax);
+        }
     }
 }
