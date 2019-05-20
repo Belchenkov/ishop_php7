@@ -23,6 +23,22 @@ class ProductController extends AppController
         $this->set(compact('products', 'pagination', 'count'));
     }
 
+    public function editAction()
+    {
+        if (!empty($_POST)) {
+
+        }
+        $id = $this->getRequestID();
+        $product = \R::load('product', $id);
+        App::$app->setProperty('parent_id', $product->category_id);
+        $filter = \R::getCol('SELECT attr_id FROM attribute_product WHERE product_id = ?', [$id]);
+        $related_product = \R::getAll("SELECT related_product.related_id, product.title FROM related_product 
+            JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$id]);
+        $gallery = \R::getCol('SELECT img FROM gallery WHERE product_id = ?', [$id]);
+        $this->setMeta('Редактирование товара {$product->title}');
+        $this->set(compact('product', 'filter', 'related_product', 'gallery'));
+    }
+
     public function addAction()
     {
         if (!empty($_POST)) {
