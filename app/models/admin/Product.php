@@ -99,7 +99,7 @@ class Product extends AppModel
         if (!empty($data['attrs'])) {
             $result = array_diff($filter, $data['attrs']);
 
-            if (!$result) {
+            if (!$result || count($filter) != count($data['attrs'])) {
                 \R::exec("DELETE FROM attribute_product WHERE product_id = ?", [$id]);
                 $sql_part = '';
                 foreach ($data['attrs'] as $v) {
