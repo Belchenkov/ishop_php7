@@ -78,7 +78,7 @@ if ($('div').is('#single')){
        file;
 }
 
-if(buttonSingle){
+if (buttonSingle){
    new AjaxUpload(buttonSingle, {
       action: adminpath + buttonSingle.data('url') + "?upload=1",
       data: {name: buttonSingle.data('name')},
@@ -102,7 +102,7 @@ if(buttonSingle){
    });
 }
 
-if(buttonMulti){
+if (buttonMulti){
    new AjaxUpload(buttonMulti, {
       action: adminpath + buttonMulti.data('url') + "?upload=1",
       data: {name: buttonMulti.data('name')},
