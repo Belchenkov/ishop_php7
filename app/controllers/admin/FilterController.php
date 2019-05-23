@@ -47,6 +47,57 @@ class FilterController extends AppController
         $this->set(compact('group'));
         $this->setMeta('Новый фильтр');
     }
+
+    public function groupEditAction()
+    {
+        if (!empty($_POST)) {
+            $id = $this->getRequestID(false);
+            $group = new FilterGroup();
+            $data = $_POST;
+            $group->load($data);
+
+            if (!$group->validate($data)) {
+                $group->getErrors();
+                redirect();
+            }
+
+            if ($group->update('attribute_group', $id)) {
+                $_SESSION['success'] = 'Изменения сохранены';
+                redirect();
+            }
+        }
+
+        $id = $this->getRequestID();
+        $group = \R::load('attribute_group', $id);
+        $this->setMeta("Редактирование группы {$group->title}");
+        $this->set(compact('group'));
+    }
+
+    public function attributeEditAction()
+    {
+        if (!empty($_POST)) {
+            $id = $this->getRequestID(false);
+            $attr = new FilterAttr();
+            $data = $_POST;
+            $attr->load($data);
+
+            if (!$attr->validate($data)) {
+                $attr->getErrors();
+                redirect();
+            }
+
+            if ($attr->update('attribute_value', $id)) {
+                $_SESSION['success'] = 'Изменения сохранены';
+                redirect();
+            }
+        }
+
+        $id = $this->getRequestID();
+        $attr = \R::load('attribute_value', $id);
+        $attrs_group = \R::findAll('attribute_group');
+        $this->setMeta('Редактирование атрибута');
+        $this->set(compact('attr', 'attrs_group'));
+    }
     
     public function groupAddAction()
     {

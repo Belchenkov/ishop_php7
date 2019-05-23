@@ -19,7 +19,15 @@
                     <div class="box-body">
                         <div class="form-group has-feedback">
                             <label for="title">Наименование группы</label>
-                            <input type="text" name="title" class="form-control" id="title" placeholder="Наименование группы" required value="<?=h($group->title);?>">
+                            <input
+                                    type="text"
+                                    name="title"
+                                    class="form-control"
+                                    id="title"
+                                    placeholder="Наименование группы"
+                                    required
+                                    value="<?=h($group->title);?>"
+                            >
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
                     </div>

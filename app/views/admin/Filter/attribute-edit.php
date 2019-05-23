@@ -19,14 +19,25 @@
                     <div class="box-body">
                         <div class="form-group has-feedback">
                             <label for="value">Наименование</label>
-                            <input type="text" name="value" class="form-control" id="value" placeholder="Наименование" required value="<?=h($attr->value);?>">
+                            <input
+                                    type="text"
+                                    name="value"
+                                    class="form-control"
+                                    id="value"
+                                    placeholder="Наименование"
+                                    required
+                                    value="<?=h($attr->value);?>"
+                            >
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
                         <div class="form-group">
                             <label for="category_id">Группа</label>
                             <select name="attr_group_id" id="category_id" class="form-control">
                                 <?php foreach($attrs_group as $item): ?>
-                                    <option value="<?=$item->id;?>"<?php if($item->id == $attr->attr_group_id) echo ' selected'; ?>><?=$item->title;?></option>
+                                    <option
+                                            value="<?=$item->id;?>"<?php if($item->id == $attr->attr_group_id) echo ' selected'; ?>
+                                    ><?=$item->title;?>
+                                    </option>
                                 <?php endforeach; ?>
                             </select>
                         </div>

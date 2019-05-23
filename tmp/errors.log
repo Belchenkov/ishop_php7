@@ -11130,3 +11130,5 @@
 ============
 [2019-05-23 04:11:44] Текст ошибки: Страница не найдена! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 46
 ============
+[2019-05-23 04:21:02] Текст ошибки: Метод app\controllers\admin\FilterController::attributeEditAction не найден! | Файл: D:\laragon\www\php\ishop_php7\vendor\ishop\core\Router.php | Строка: 40
+============
