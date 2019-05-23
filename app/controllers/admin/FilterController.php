@@ -134,4 +134,14 @@ class FilterController extends AppController
         $_SESSION['success'] = 'Удалено';
         redirect();
     }
+
+    public function attributeDeleteAction()
+    {
+        $id = $this->getRequestID();
+
+        \R::exec('DELETE FROM attribute_product WHERE attr_id = ?', [$id]);
+        \R::exec("DELETE FROM attribute_value WHERE id = ?", [$id]);
+        $_SESSION['success'] = 'Удалено';
+        redirect();
+    }
 }
